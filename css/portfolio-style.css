@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(251, 249, 249);
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 29px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+/* -------------Topbar Section----------------------------- */
+
+.topbar-section{
+    background-color: #173a69;
+    padding: 8px 0 8px 0;
+}
+
+.toper-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topbar-left ul{
+    display: flex;
+    column-gap: 30px;
+}
+
+.topbar-right ul{
+    display: flex;
+    justify-content: end;
+    column-gap: 30px;
+}
+
+.topbar-right ul li:hover{
+    scale: 200%;
+}
+
+.toper-parent a{
+    font-size: 13px;
+    line-height: 20px;
+    /* font-weight: 400px; */
+    color: white;
+    letter-spacing: .5px;
+}
+
+/* -------------Header Section------------------------------ */
+
+.header-parent{
+    padding: 8px 0 7px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    align-items: center;  
+}
+
+.header-parent ul{
+    display: flex;
+    justify-content: end;
+    gap: 80px;    
+}
+.header-parent ul li a{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.header-parent ul li a:hover{
+    width: 100px;   
+    padding: 35px 0 32px 0;
+    background-color: rgb(249, 250, 252);
+    border-bottom: 4px solid #173a69;
+    /* border-bottom-width: 100px; */
+    /* text-shadow: 1px 1px 1px #173a69;     */
+}
+
+/* ---------------- Banear section--------------------------*/
+
+.banner-section {
+    padding: 100px 0;
+    background: linear-gradient( rgba(90, 90, 91, 0.7), rgba(79, 79, 81, 0.7) ), url('../Service/img/service_banner_picture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+}
+
+
+.banner-section{
+    text-align: center;
+}
+
+.banner-contant h1{
+    color: white;
+    font-size: 32px;
+}
+.banner-contant p{
+    color: white;
+}
+
+/* ------------ Gallery section---------------------------- */
+
+.gallery-section{
+    text-align: center;
+    padding: 110px 0;
+}
+.gallery-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.gallery-parent img{
+    width: 100%;
+    transition: .5s;
+}
+.gallery-parent img:hover{
+    border-radius:;
+    box-shadow: 2px 1px 20px 2px black;
+    transition: .5s;
+}
+.gallery-parent .lastone:hover{
+    opacity: 50%;
+    border-radius:;
+    box-shadow: 2px 1px 20px 2px black;
+    transition: .5s;
+}
+
+
+/* --------------------- bottom section-------------------- */
+
+.bottom-contact{  
+    width: 100%;
+    height: 20px;  
+    padding: 85px 0;
+    background-color: #173a69;
+    display: flex;
+    justify-content: center;
+    gap: 10px;    
+}
+.bottom-contact p{
+    font-size: 24px;
+    color: white;
+}
+.bottom-contact a{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+   
+}
+
+.bottom-parent{
+    padding: 70px 0;
+    text-align: center;
+}
+.bottom-icon ul {
+    padding-top: 45px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.bottom-icon ul a {
+    font-size: 20px;
+    color: #0a40e1;
+    border: 1px solid #686565;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.bottom-icon ul :hover {
+    scale: 150%;
+}
+.bottom-icon ul a:hover .bottom-parent{
+    padding: 70px 0 55px 0;
+    text-align: center;
+}
+
+/*------------------Soket-----------------------------------*/
+
+.Copyright{
+ width: 100%;
+height: 25px;
+background: black;
+color: aliceblue;
+text-align: center;
+padding: 35px 0px;
+}
+.Copyright a{
+
+    text-decoration:none;
+    color: aliceblue;
+}
+.Copyright a i{
+    color: #0a40e1;
+}
